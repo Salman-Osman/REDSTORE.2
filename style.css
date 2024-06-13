@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* index.html */
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(white, rgb(255, 218, 218));
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+nav .logo img {
+    width: 120px;
+}
+
+nav .nav-ul {
+    gap: 15px;
+    font-size: 24px;
+    font-weight: 10px;
+}
+
+nav .nav-ul ul {
+    display: flex;
+    gap: 20PX;
+}
+
+nav .nav-ul ul li a img {
+    width: 30px;
+}
+
+nav .nav-ul li {
+    list-style: none;
+}
+
+nav .nav-ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header .hero .left-hero h1 {
+    color: black;
+    font-size: 50px;
+}
+
+header .hero .right-hero img {
+    width: 600px;
+}
+
+header .hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .hero .left-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+button {
+    background-color: rgb(255, 82, 59);
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.advert-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.afterimage {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    gap: 35px;
+}
+
+.afterimage img {
+    width: 305px;
+}
+
+.product-row-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    gap: 35px;
+}
+
+.product-row-1 div img {
+    width: 225px;
+}
+
+.advert-section .product-row-1 .stars {
+    color: rgb(255, 82, 59);
+    display: flex;
+}
+
+.products-row-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.products-row-2 div img {
+    width: 225px;
+}
+
+.products-row-2 .pro-row-2-col-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    gap: 35px;
+}
+
+.products-row-2 .pro-row-2-col-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 120px;
+    gap: 35px;
+}
+
+.advert-section .products-row-2 .stars {
+    color: rgb(255, 82, 59);
+    display: flex;
+}
+
+.advert-section hr {
+    border: 3px rgb(255, 82, 59) solid;
+    width: 80px;
+    border-radius: 7px;
+}
+
+.advert-section-2 img {
+    width: 400px;
+}
+
+.advert-section-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    background-color: rgb(255, 224, 224);
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+.advert-section-2 .right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.advert-section-2 .right h1 {
+    font-size: 60px;
+}
+
+.advert-section-2 .right p {
+    line-height: 25px;
+    font-weight: 0.1px;
+}
+
+.testimonial-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.testimonial-section div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.testimonial-section div .fa-quote-left {
+    color: rgb(255, 82, 59);
+    font-size: 40px;
+}
+
+.testimonial-section div .stars {
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 82, 59);
+    box-shadow: none;
+}
+
+.testimonial-section div .colored-stars {
+    display: flex;
+    flex-direction: row;
+    box-shadow: none;
+    padding: 0;
+}
+
+.testimonial-section div img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.testimonial-section div p {
+    line-height: 20px;
+    font-weight: 0.1px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 90px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: grey;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer .horizon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding-bottom: 40px;
+}
+
+footer .horizon img {
+    width: 100px;
+}
+
+footer hr {
+    border: 0.1px solid grey;
+    align-items: center;
+    display: flex;
+    width: 1200px;
+    margin-bottom: 30px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 70px;
+    padding-top: 90px;
+}
+
+.products .pro-row-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.pro-row-1 .stars {
+    color: rgb(255, 82, 59);
+    display: flex;
+}
+
+.products img {
+    width: 225px;
+}
+
+.products .product-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.account-hero {
+    background: radial-gradient(white, rgb(255, 218, 218));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.account-hero .account-hero-right img {
+    width: 600px;
+}
+
+.account-hero .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    background-color: white;
+    padding: 60px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.account-hero .register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    background-color: white;
+    padding: 60px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.account-hero .login .log-bod form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.account-hero .register .reg-bod form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.account-hero .forms {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+table {
+    display: table;
+    width: 60%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    border-collapse: collapse;
+}
+
+.buy {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+table tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+table th {
+    padding: 12px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.total-price tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    background-color: red !important;
+}
+
+@media(max-width:930px) {
+    .advert-section .afterimage {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hero {
+        flex-wrap: wrap;
+    }
+
+    .nav-ul {
+        display: none;
+    }
+
+    .nav-ul .cart {
+        display: flex !important;
+    }
+    .product-row-1{
+        flex-wrap: wrap !important;
+    }
+    .products-row-2 .pro-row-2-col-1, .products-row-2 .pro-row-2-col-2, footer .horizon, .pro-row-1, .account-hero{
+        flex-wrap: wrap !important;
+    }
+   
+    .account-hero img{
+        width: 350px;
+    }
+    .advert-section-2{
+        flex-wrap: wrap;
+    }
+    .testimonial-section{
+        flex-wrap: wrap;
+    }
+    .logo-section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:600px) {
+    .right-hero img {
+        width:400px !important ;
+    }
+    .account-hero img{
+        width: 200px !important;
+    }
+}
